@@ -1,8 +1,14 @@
 @import url("./variables.css");
 @import url("./layout.css");
 
+@font-face {
+  font-family: "estandar";
+  src: url("/fonts/estandar.woff2") format("woff2");
+}
+
 * {
   box-sizing: border-box;
+  font-family: "estandar";
 }
 
 body {
